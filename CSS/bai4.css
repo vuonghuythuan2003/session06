@@ -1,0 +1,47 @@
+body,html{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    border:1px solid;
+    width:1000px;
+    height:500px;
+    padding: 20px;
+}
+.main{
+    display:flex;
+}
+.inputtype{
+    width:480px;
+    display:flex;
+    flex-direction: column;
+}
+input{
+    margin:20px;
+    height:36px;
+    border-radius: 3px;
+    border:1px solid #bdbdbd;
+}
+textarea {
+    width: calc(100% - 40px); 
+    margin: 20px;
+    border-radius: 3px;
+    border: 1px solid #bdbdbd;
+    height: 280px;
+    box-sizing: border-box;
+}
+.btn__click{
+    min-width:80px;
+    height:36px;
+    margin-right:4px;
+    margin-bottom:16px;
+    margin-left:500px;
+    width:387px;
+    background-color: #2563eb;
+    border:none;
+    color:#fff;
+    border-radius: 3px;
+}
+p{
+    font-size: 13px;
+}

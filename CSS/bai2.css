@@ -1,0 +1,49 @@
+.nav{
+    display:flex;
+    width:100%;
+    height:56px;
+    background-color: #007aff;
+    font-family: sans-serif;
+    
+}
+.nav-rows{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    justify-content:space-around;
+    
+}
+.nav a{
+    text-decoration: none;
+    color:#fff;
+}
+.nav li:hover{
+    opacity: 0.8;
+}
+
+span{
+    color:aliceblue;
+}
+.nav-rows input[type=text]{
+    border-radius: 3px;
+    border:none;
+    height:23px;
+    position:relative;
+}
+
+.search-container .insert-search{
+    position: absolute;
+    right: 970px;
+    color: #333;
+    margin-top: 5px;
+}
+.user .chuV{
+    margin-right: 40px;
+}
+.white{
+    color:#fff;
+}

@@ -1,0 +1,20 @@
+*{
+    margin:0;
+}
+.chart-layout{
+    display:flex;
+    margin:36px auto 0 auto;
+    background-color: #fff;
+    height:360px;
+    flex-direction: column;
+}
+
+.chart-layout__item{
+    background-color: orange;
+    width:var(--percent);
+    margin:20px;
+    height:80px;    
+    padding:16px 0px;
+    color:#fff;
+    text-align: center;
+}
